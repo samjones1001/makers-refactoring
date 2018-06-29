@@ -1,8 +1,10 @@
 # Refactoring
 
-## Learn to
+## Learning Objectives
 
-- Improving the Design of existing code.
+- I can describe some common techniques for refactoring
+- I can explain how these patterns can be implemented
+- I can implement these patterns to improve code quality
 
 ## Introduction
 
@@ -129,15 +131,3 @@ The benefits are:
 > We can now do this refactor cycle again in each class, extracting `header` to a constant and injecting `Printer` as a dependency to `Arithmetic`.
 
 **Notice how I didn't design this to happen. By using extract variable, extract method, and extract class, the design 'emerged' from the code. Also – the original test still works.**
-
-## Exercise 1: Extract variable
-
-Head to [this repo](https://github.com/sjmog/refactoring_exercises/tree/master/extract_variable) and use the extract variable technique in each of the examples.
-
-## Exercise 2: Extract method
-
-Head to [this repo](https://github.com/sjmog/refactoring_exercises/tree/master/extract_method) and use the extract method technique in each of the examples. You may need to extract variable, too.
-
-## Exercise 3: Extract class
-
-Head to [this repo](https://github.com/sjmog/refactoring_exercises/tree/master/extract_class) and use the extract class technique in each of the examples. You may need to extract methods and variables, too.
